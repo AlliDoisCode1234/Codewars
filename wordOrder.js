@@ -6,6 +6,7 @@
 
 // If input string is empty, return an empty string
 // Words in the input string will only contain valid consecutive numbers
+// Regex for ease
 
 const order = (words) => {
   const regex = /\d/;
