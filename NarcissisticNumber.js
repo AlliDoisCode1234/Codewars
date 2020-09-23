@@ -18,7 +18,7 @@
 
 const narcissistic = (value) => {
   const nValue = String(value).split(" ");
-
+  console.log(nValue);
   let nResult = 0;
 
   for (c of nValue) {
