@@ -13,6 +13,8 @@
 // 3. Loop through until desired year
 // 4. Return number of years
 
+// Sample Test at the end
+
 const calculateYears = (principal, interest, tax, desired) => {
   let years = 0;
 
