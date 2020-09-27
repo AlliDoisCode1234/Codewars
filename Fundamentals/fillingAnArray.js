@@ -1,17 +1,21 @@
-function arr(N) {
-  let filledArr = [];
-  if (typeof N === "number") {
-    filledArr.push(0);
-    for (i = 1; i < N; i++) {
-      filledArr.push(filledArr[i - 1] + 1);
-    }
-  }
-  return filledArr;
-}
+// function arr(N) {
+//   let filledArr = [];
+//   if (typeof N === "number") {
+//     filledArr.push(0);
+//     for (i = 1; i < N; i++) {
+//       filledArr.push(filledArr[i - 1] + 1);
+//     }
+//   }
+//   return filledArr;
+// }
 
-console.log(arr(4));
-console.log(arr(5));
-console.log(arr());
+// console.log(arr(4));
+// console.log(arr(5));
+// console.log(arr());
+
+// Better Solution:
+
+const arr = (n) => Array.from({ length: n }, (_, i) => i);
 
 // Testcase
 // describe('#arr creates a new array with the numbers 0 to N-1',_=>{
