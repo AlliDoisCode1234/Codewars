@@ -26,6 +26,15 @@ function oddNum(arr) {
      }
      
  }
+
+
+ // Simple codegolf
+//  function oddNum(numbers) {
+//     return numbers.findIndex(n => n % 2 != 0);
+//   }
+
+// Second Simple codegolf
+// const oddNum = a => a.findIndex(e => e % 2);
   
 // Testcase
 // Test.assertEquals(oddNum([2, 4, 6, 7, 10]), 3);
