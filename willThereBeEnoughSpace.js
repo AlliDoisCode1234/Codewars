@@ -1,8 +1,11 @@
 function enough(cap, on, wait) {
     return (wait + on) <= cap ? 0 : (wait + on) - cap
   }
+
+// Solution #2
+//   const enough = (cap, on, wait) => Math.max(0,wait-cap+on);
   
-  
+// Solution #3
   //   if((wait + on ) <= cap){
   //     return 0
   //   } else{
