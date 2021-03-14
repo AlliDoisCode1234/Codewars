@@ -14,9 +14,9 @@
 // Good luck!
 
 function solve(str){
-    // recursion in a ternary conditional 
-    return str ? solve(str.substr(1)) + str[0] : str
-   }
+    const arr = [...str.split(` `).join(``)];
+    return str.replace(/\S/g, a => arr.pop());
+  }
 
 
 //    Testcase:
