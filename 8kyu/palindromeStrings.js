@@ -1,7 +1,7 @@
 // O(n) time | O(1) space
 
 
-const isPalindrome(line) {
+const isPalindrome = line => {
   
     let leftIdx = 0;
     let rightIdx = line.length - 1;
