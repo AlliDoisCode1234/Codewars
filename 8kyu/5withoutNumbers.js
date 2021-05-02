@@ -5,13 +5,14 @@
 
 // Good luck :)
 
+// O(1) time | O(n) space
 function unusualFive() {
-    let arr = ['', '', '', '', '']
-    return arr.length
-  }
+  let arr = ['', '', '', '', '']
+  return arr.length
+}
 
-  describe("unusualFive", function(){
-    it("should return 5", function(){
-      assert.strictEqual(unusualFive(), 5);
-    });
+describe("unusualFive", function () {
+  it("should return 5", function () {
+    assert.strictEqual(unusualFive(), 5);
   });
+});
