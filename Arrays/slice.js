@@ -1,5 +1,7 @@
 Array.prototype.slice()
 
+// O(n) time | space
+
 // The slice() method returns a shallow copy 
 // of a portion of an array into a new array 
 // object selected from start to end 

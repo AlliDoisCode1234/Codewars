@@ -1,5 +1,7 @@
 Array.prototype.shift()
 
+// O(n) time | space
+
 // The shift() method removes the first element 
 // from an array and returns that removed element. 
 // This method changes the length of the array.

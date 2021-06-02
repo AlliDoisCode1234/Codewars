@@ -1,5 +1,7 @@
 Array.prototype.filter()
 
+// O(n) time | space
+
 // The filter() method creates a new array with all 
 // elements that pass the test implemented by the 
 // provided function.

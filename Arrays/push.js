@@ -1,5 +1,7 @@
 Array.prototype.push()
 
+// O(1) time | space
+
 // The push() method adds one or more elements to 
 // the end of an array and returns the new length 
 // of the array.

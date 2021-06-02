@@ -1,5 +1,7 @@
 Array.prototype.sort()
 
+// O(n log(n)) time | space
+
 // The sort() method sorts the elements of an array 
 // in place and returns the sorted array. The default 
 // sort order is ascending, built upon converting the 

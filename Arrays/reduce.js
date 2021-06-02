@@ -1,5 +1,8 @@
 Array.prototype.reduce()
 
+// O(n) time | space
+
+
 // The reduce() method executes a reducer function 
 // (that you provide) on each element of the array, 
 // resulting in a single output value.

@@ -1,5 +1,7 @@
 Array.prototype.forEach()
 
+// O(n) time | space
+
 // The forEach() method executes a provided 
 // function once for each array element.
 
