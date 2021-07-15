@@ -4,7 +4,7 @@ const stringTransformer = str =>
 //   E: "hI" > "Hi"
 //       "helLO" > "HELlo"
 //       "wInNeR" > "WiNnEr"
-//   P: split to array then map each el and switch case then join to return
+//   P: split to array then map each el and switch case then join then reverse the words then join to return
     
     str
       .split('')
