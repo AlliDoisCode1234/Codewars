@@ -1,0 +1,1 @@
+const getAge = inputString => +inputString[0]
