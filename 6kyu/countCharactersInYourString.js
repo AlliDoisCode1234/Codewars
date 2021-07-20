@@ -22,7 +22,5 @@
 //   })
 //   return obj
 // }
-  
+
 const count = s => s.split('').reduce((obj,el) => ((obj[el] = obj[el] + 1 || 1), obj), {})
-  
-  
