@@ -1,0 +1,1 @@
+const repeatIt = (str, n) =>  !str.length ? "Not a string" : str.repeat(n)
