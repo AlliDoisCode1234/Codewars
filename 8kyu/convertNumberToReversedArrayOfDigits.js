@@ -1,0 +1,1 @@
+const digitize = num => num.toString().split('').reverse().map(x => +x)
