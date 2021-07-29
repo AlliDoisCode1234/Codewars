@@ -1,0 +1,1 @@
+const capitals = word => word.split('').filter((str) => (/[A-Z]/.test(str))).map((el) => el = word.indexOf(el))
